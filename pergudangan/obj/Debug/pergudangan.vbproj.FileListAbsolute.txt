@@ -12,3 +12,17 @@ D:\projects\pergudangan\pergudangan\pergudangan\obj\Debug\pergudangan.product.re
 D:\projects\pergudangan\pergudangan\pergudangan\obj\Debug\pergudangan.product_image.resources
 D:\projects\pergudangan\pergudangan\pergudangan\obj\Debug\pergudangan.product_add_edit.resources
 D:\projects\pergudangan\pergudangan\pergudangan\obj\Debug\pergudangan.product_image_add_edit.resources
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.exe
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.xml
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.pdb
+D:\projects\vbnet\pergudangan\pergudangan\bin\Debug\pergudangan.exe
+D:\projects\vbnet\pergudangan\pergudangan\bin\Debug\pergudangan.pdb
+D:\projects\vbnet\pergudangan\pergudangan\bin\Debug\pergudangan.xml
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.frm_login.resources
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.main_menu.resources
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.Resources.resources
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.product.resources
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.product_add_edit.resources
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.product_image.resources
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.product_image_add_edit.resources
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.vbproj.GenerateResource.Cache
