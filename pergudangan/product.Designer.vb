@@ -56,14 +56,14 @@ Partial Class product
         'ms_add
         '
         Me.ms_add.Name = "ms_add"
-        Me.ms_add.Size = New System.Drawing.Size(41, 20)
-        Me.ms_add.Text = "Add"
+        Me.ms_add.Size = New System.Drawing.Size(86, 20)
+        Me.ms_add.Text = "Add Product"
         '
         'ReloadToolStripMenuItem
         '
         Me.ReloadToolStripMenuItem.Name = "ReloadToolStripMenuItem"
-        Me.ReloadToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
-        Me.ReloadToolStripMenuItem.Text = "Reload"
+        Me.ReloadToolStripMenuItem.Size = New System.Drawing.Size(100, 20)
+        Me.ReloadToolStripMenuItem.Text = "Reload Product"
         '
         'product
         '

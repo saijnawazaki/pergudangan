@@ -26,12 +26,14 @@ Partial Class main_menu
         Me.ms_menu = New System.Windows.Forms.MenuStrip()
         Me.MasterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProductToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.InformationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ms_menu.SuspendLayout()
         Me.SuspendLayout()
         '
         'ms_menu
         '
-        Me.ms_menu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MasterToolStripMenuItem})
+        Me.ms_menu.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MasterToolStripMenuItem, Me.InformationToolStripMenuItem})
         Me.ms_menu.Location = New System.Drawing.Point(0, 0)
         Me.ms_menu.Name = "ms_menu"
         Me.ms_menu.Size = New System.Drawing.Size(746, 24)
@@ -48,8 +50,21 @@ Partial Class main_menu
         'ProductToolStripMenuItem
         '
         Me.ProductToolStripMenuItem.Name = "ProductToolStripMenuItem"
-        Me.ProductToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.ProductToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ProductToolStripMenuItem.Text = "Product"
+        '
+        'InformationToolStripMenuItem
+        '
+        Me.InformationToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem})
+        Me.InformationToolStripMenuItem.Name = "InformationToolStripMenuItem"
+        Me.InformationToolStripMenuItem.Size = New System.Drawing.Size(82, 20)
+        Me.InformationToolStripMenuItem.Text = "Information"
+        '
+        'AboutToolStripMenuItem
+        '
+        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AboutToolStripMenuItem.Text = "About"
         '
         'main_menu
         '
@@ -70,4 +85,6 @@ Partial Class main_menu
     Friend WithEvents ms_menu As System.Windows.Forms.MenuStrip
     Friend WithEvents MasterToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ProductToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents InformationToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

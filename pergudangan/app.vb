@@ -37,4 +37,16 @@ Module app
         End Using
 
     End Function
+
+    Public Function parsedate_now()
+        Dim uTime As Int64
+        uTime = (DateTime.UtcNow - New DateTime(1970, 1, 1, 0, 0, 0)).TotalSeconds
+        uTime += (3600 * 7)
+        Return uTime
+    End Function
+    Public Function parsedate(v_input As String)
+        Dim uTime As Int64
+        uTime = (DateTime.UtcNow - New DateTime(1970, 1, 1, 7, 0, 0)).TotalSeconds
+        Return uTime
+    End Function
 End Module

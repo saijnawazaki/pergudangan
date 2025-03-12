@@ -26,6 +26,7 @@ Partial Class product_image_add_edit
         Me.dgv_list = New System.Windows.Forms.DataGridView()
         Me.ms = New System.Windows.Forms.MenuStrip()
         Me.ms_add = New System.Windows.Forms.ToolStripMenuItem()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         CType(Me.dgv_list, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.ms.SuspendLayout()
         Me.SuspendLayout()
@@ -55,8 +56,12 @@ Partial Class product_image_add_edit
         'ms_add
         '
         Me.ms_add.Name = "ms_add"
-        Me.ms_add.Size = New System.Drawing.Size(41, 20)
-        Me.ms_add.Text = "Add"
+        Me.ms_add.Size = New System.Drawing.Size(77, 20)
+        Me.ms_add.Text = "Add Image"
+        '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
         'product_image_add_edit
         '
@@ -78,4 +83,5 @@ Partial Class product_image_add_edit
     Friend WithEvents dgv_list As System.Windows.Forms.DataGridView
     Friend WithEvents ms As System.Windows.Forms.MenuStrip
     Friend WithEvents ms_add As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
 End Class

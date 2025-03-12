@@ -26,3 +26,8 @@ D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.product_add_edit
 D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.product_image.resources
 D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.product_image_add_edit.resources
 D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.vbproj.GenerateResource.Cache
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.about.resources
+D:\projects\vbnet\pergudangan\pergudangan\bin\Debug\pergudangan.exe.manifest
+D:\projects\vbnet\pergudangan\pergudangan\bin\Debug\pergudangan.application
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.exe.manifest
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.application

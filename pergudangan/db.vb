@@ -77,10 +77,10 @@
         cmd.Connection = con
         cmd = New OleDb.OleDbCommand(query, con)
 
-        Return cmd.ExecuteNonQuery
+        cmd.ExecuteNonQuery()
         con.Close()
 
-
+        Return True
 
     End Function
 End Module

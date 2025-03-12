@@ -9,4 +9,9 @@
         product.MdiParent = Me
         product.Show()
     End Sub
+
+    Private Sub AboutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutToolStripMenuItem.Click
+        about.MdiParent = Me
+        about.Show()
+    End Sub
 End Class

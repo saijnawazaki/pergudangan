@@ -9,6 +9,12 @@
     Private Sub product_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         load()
 
+        
+
+        Debug.WriteLine("====")
+        Debug.WriteLine(parsedate("01-01-2025"))
+        Debug.WriteLine(parsedate_now())
+
         Dim btn_image As New DataGridViewButtonColumn
         btn_image.HeaderText = "Show Images"
         btn_image.Text = "Show Images"
@@ -41,6 +47,7 @@
     Private Sub dgv_list_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles dgv_list.CellContentClick
         'MsgBox(dgv_list.CurrentRow.Cells("product_id").Value)
         If dgv_list.Columns(e.ColumnIndex).Name = "btn_edit" Then
+            product_add_edit.MdiParent = main_menu
             product_add_edit.Show()
             product_add_edit.loadParams(dgv_list.CurrentRow.Cells("product_id").Value)
         ElseIf dgv_list.Columns(e.ColumnIndex).Name = "btn_delete" Then
@@ -55,8 +62,13 @@
            
         ElseIf dgv_list.Columns(e.ColumnIndex).Name = "btn_image" Then
             'MsgBox(dgv_list.CurrentRow.Cells("product_id").Value)
+            product_image.MdiParent = main_menu
             product_image.Show()
             product_image.loadParams(dgv_list.CurrentRow.Cells("product_id").Value, 1)
+        ElseIf dgv_list.Columns(e.ColumnIndex).Name = "btn_image_edit" Then
+            product_image_add_edit.MdiParent = main_menu
+            product_image_add_edit.Show()
+            product_image_add_edit.loadparam(dgv_list.CurrentRow.Cells("product_id").Value)
         End If
     End Sub
 
