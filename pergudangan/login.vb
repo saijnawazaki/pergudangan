@@ -1,6 +1,7 @@
 ﻿Imports System.Security.Cryptography
 Imports System.Text
 Public Class frm_login
+
     Private Sub frm_login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Me.Text = APP_TITLE
         'Debug.WriteLine(GetIniValue("APP", "name", My.Application.Info.DirectoryPath & "\pergudangan.ini"))
@@ -11,7 +12,7 @@ Public Class frm_login
 
 
     Private Sub btn_login_Click(sender As Object, e As EventArgs) Handles btn_login.Click
-        
+
         Debug.WriteLine(tb_username.Text)
         Debug.WriteLine(tb_password.Text)
         Debug.WriteLine(GetHashMD5(tb_password.Text))
@@ -35,4 +36,13 @@ Public Class frm_login
             End If
         End If
     End Sub
+
+    Private Sub tb_password_PreviewKeyDown(sender As Object, e As PreviewKeyDownEventArgs) Handles tb_password.PreviewKeyDown
+
+        If e.KeyCode = Keys.Enter Then
+            Call btn_login_Click(sender, e)
+        End If
+    End Sub
+
+   
 End Class

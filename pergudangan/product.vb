@@ -1,5 +1,5 @@
 ﻿Public Class product
-    Public Sub load()
+    Public Sub loadZX()
         dgv_list.DataSource = getDataToDataGrid("select product_id,product_name from product")
         dgv_list.SelectionMode = DataGridViewSelectionMode.FullRowSelect
 
@@ -7,9 +7,9 @@
     End Sub
 
     Private Sub product_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        load()
+        loadZX()
 
-        
+
 
         Debug.WriteLine("====")
         Debug.WriteLine(parsedate("01-01-2025"))
@@ -56,10 +56,10 @@
                 getExecute("DELETE FROM product WHERE product_id = " & dgv_list.CurrentRow.Cells("product_id").Value)
 
                 MsgBox("Deleted", MsgBoxStyle.Information)
-                Me.load()
+                Me.loadZX()
             End If
 
-           
+
         ElseIf dgv_list.Columns(e.ColumnIndex).Name = "btn_image" Then
             'MsgBox(dgv_list.CurrentRow.Cells("product_id").Value)
             product_image.MdiParent = main_menu
@@ -80,6 +80,6 @@
     End Sub
 
     Private Sub ReloadToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ReloadToolStripMenuItem.Click
-        load()
+        loadZX()
     End Sub
 End Class

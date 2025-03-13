@@ -28,6 +28,7 @@ Partial Class main_menu
         Me.ProductToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InformationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProductUnitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ms_menu.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -42,7 +43,7 @@ Partial Class main_menu
         '
         'MasterToolStripMenuItem
         '
-        Me.MasterToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProductToolStripMenuItem})
+        Me.MasterToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProductToolStripMenuItem, Me.ProductUnitToolStripMenuItem})
         Me.MasterToolStripMenuItem.Name = "MasterToolStripMenuItem"
         Me.MasterToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
         Me.MasterToolStripMenuItem.Text = "Master"
@@ -63,8 +64,14 @@ Partial Class main_menu
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
         Me.AboutToolStripMenuItem.Text = "About"
+        '
+        'ProductUnitToolStripMenuItem
+        '
+        Me.ProductUnitToolStripMenuItem.Name = "ProductUnitToolStripMenuItem"
+        Me.ProductUnitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ProductUnitToolStripMenuItem.Text = "Product Unit"
         '
         'main_menu
         '
@@ -87,4 +94,5 @@ Partial Class main_menu
     Friend WithEvents ProductToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents InformationToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents ProductUnitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

@@ -11,6 +11,7 @@
         End While
 
         loadData(now_product_id, now_counter)
+        Return 1
     End Function
     Private Function loadData(product_id, counter)
         pb.Image = Nothing
@@ -22,6 +23,7 @@
             pb.Image = Image.FromFile(My.Application.Info.DirectoryPath & "\assets\product_image\" & reader("file_path").ToString())
             Label2.Text = reader("file_path").ToString()
         End While
+        Return 1
     End Function
 
     Private Sub product_image_Load(sender As Object, e As EventArgs) Handles MyBase.Load

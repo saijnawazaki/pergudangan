@@ -31,3 +31,5 @@ D:\projects\vbnet\pergudangan\pergudangan\bin\Debug\pergudangan.exe.manifest
 D:\projects\vbnet\pergudangan\pergudangan\bin\Debug\pergudangan.application
 D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.exe.manifest
 D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.application
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.product_unit.resources
+D:\projects\vbnet\pergudangan\pergudangan\obj\Debug\pergudangan.product_unit_add_edit.resources

@@ -157,6 +157,18 @@
     <Compile Include="product_image_add_edit.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="product_unit.Designer.vb">
+      <DependentUpon>product_unit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="product_unit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="product_unit_add_edit.Designer.vb">
+      <DependentUpon>product_unit_add_edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="product_unit_add_edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="about.resx">
@@ -185,6 +197,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="product_image_add_edit.resx">
       <DependentUpon>product_image_add_edit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="product_unit.resx">
+      <DependentUpon>product_unit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="product_unit_add_edit.resx">
+      <DependentUpon>product_unit_add_edit.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
