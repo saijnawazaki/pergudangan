@@ -19,4 +19,9 @@
         product_unit.MdiParent = Me
         product_unit.Show()
     End Sub
+
+    Private Sub EmployeeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles EmployeeToolStripMenuItem.Click
+        employee.MdiParent = Me
+        employee.Show()
+    End Sub
 End Class

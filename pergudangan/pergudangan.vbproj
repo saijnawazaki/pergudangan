@@ -105,6 +105,18 @@
     </Compile>
     <Compile Include="app.vb" />
     <Compile Include="db.vb" />
+    <Compile Include="employee.Designer.vb">
+      <DependentUpon>employee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="employee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="employee_add_edit.Designer.vb">
+      <DependentUpon>employee_add_edit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="employee_add_edit.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="login.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -173,6 +185,12 @@
   <ItemGroup>
     <EmbeddedResource Include="about.resx">
       <DependentUpon>about.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="employee.resx">
+      <DependentUpon>employee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="employee_add_edit.resx">
+      <DependentUpon>employee_add_edit.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.vb</DependentUpon>

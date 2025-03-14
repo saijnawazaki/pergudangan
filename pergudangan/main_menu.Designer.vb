@@ -26,9 +26,10 @@ Partial Class main_menu
         Me.ms_menu = New System.Windows.Forms.MenuStrip()
         Me.MasterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ProductToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ProductUnitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InformationToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ProductUnitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EmployeeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ms_menu.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -43,7 +44,7 @@ Partial Class main_menu
         '
         'MasterToolStripMenuItem
         '
-        Me.MasterToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProductToolStripMenuItem, Me.ProductUnitToolStripMenuItem})
+        Me.MasterToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ProductToolStripMenuItem, Me.ProductUnitToolStripMenuItem, Me.EmployeeToolStripMenuItem})
         Me.MasterToolStripMenuItem.Name = "MasterToolStripMenuItem"
         Me.MasterToolStripMenuItem.Size = New System.Drawing.Size(55, 20)
         Me.MasterToolStripMenuItem.Text = "Master"
@@ -53,6 +54,12 @@ Partial Class main_menu
         Me.ProductToolStripMenuItem.Name = "ProductToolStripMenuItem"
         Me.ProductToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.ProductToolStripMenuItem.Text = "Product"
+        '
+        'ProductUnitToolStripMenuItem
+        '
+        Me.ProductUnitToolStripMenuItem.Name = "ProductUnitToolStripMenuItem"
+        Me.ProductUnitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ProductUnitToolStripMenuItem.Text = "Product Unit"
         '
         'InformationToolStripMenuItem
         '
@@ -67,11 +74,11 @@ Partial Class main_menu
         Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
-        'ProductUnitToolStripMenuItem
+        'EmployeeToolStripMenuItem
         '
-        Me.ProductUnitToolStripMenuItem.Name = "ProductUnitToolStripMenuItem"
-        Me.ProductUnitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.ProductUnitToolStripMenuItem.Text = "Product Unit"
+        Me.EmployeeToolStripMenuItem.Name = "EmployeeToolStripMenuItem"
+        Me.EmployeeToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.EmployeeToolStripMenuItem.Text = "Employee"
         '
         'main_menu
         '
@@ -95,4 +102,5 @@ Partial Class main_menu
     Friend WithEvents InformationToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AboutToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ProductUnitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents EmployeeToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class

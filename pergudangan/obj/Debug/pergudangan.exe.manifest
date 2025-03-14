@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pergudangan.exe" size="790528">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="pergudangan.exe" size="797696">
       <assemblyIdentity name="pergudangan" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>s98bU/+mzldl4eRHTwqEzEtPfzM=</dsig:DigestValue>
+        <dsig:DigestValue>jI4F6ddUKFCumJQoKX/YAA7VVUk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
